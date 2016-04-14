@@ -3,7 +3,7 @@
 Scraping o site do Globo Esporte
 ================================
 
-O objetivo desse projeto é processar as paginas do [site do Globo Esporte](globoesporte.com.br) e armazená-las em um banco de dados.
+O objetivo desse projeto é processar as paginas do [site do Globo Esporte](http://globoesporte.com.br) e armazená-las em um banco de dados.
 
 Ferramentas utilizadas
 ----------------------
