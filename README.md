@@ -38,11 +38,10 @@ Provavelmente mais colunas serão adicionadas.
 - [ ] Jogador Mencionado: ID(jogador), ID(noticia)  
 - [ ] Time: ID, Nome  
 - [ ] Time Mencionado: ID time, ID noticia  
-
+- [ ] Jogador no Time: ID time, ID jogador
 Repensar:  
 - [ ] Campeonato: ID, nome  
 - [ ] Grupo de Campeonato: ID(Campeonato), link(id?)  
 - [ ] Times do Grupo de Campeonato: ID(campeonato), ID(time)  
 - [ ] Rodada: ID, ID(Campeonato)  
 - [ ] Jogos da Rodada: ID(Rodada),ID(Time1), ID(Time2), Placar(dois times), penalti?(foi pros penaltis), placar penalti? (quantos gols nos penaltis)  
-
