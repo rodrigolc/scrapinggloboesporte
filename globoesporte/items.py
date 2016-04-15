@@ -8,7 +8,12 @@
 import scrapy
 
 
-class GloboesporteItem(scrapy.Item):
+class Jogador(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    id = scrapy.Field()
+    apelido = scrapy.Field()
+    nome = scrapy.Field()
+
+class Time(scrapy.Item):
+    id = scrapy.Field()
+    nome = scrapy.Field()
