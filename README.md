@@ -29,21 +29,20 @@ To do list, Work in progress, tudo ainda pode mudar.
 Provavelmente mais colunas serão adicionadas.  
 
 
-[ ] Jogador: ID, Apelido, Nome, Sobrenome, Data de Nascimento
-    ID -> presente no link
-    Apelido -> normalmente há, na pagina do jogador
-    Nome,Sobrenome,Data de Nascimento -> Pagina do Jogador.
-[ ] Notícia: Titulo, link(ID), data
-    Titulo, Link, Data -> Lista de Notícias.
-[ ] Jogador Mencionado: ID(jogador), ID(noticia)
-[ ] Time: ID, Nome
+[ ] Jogador: ID, Apelido, Nome, Sobrenome, Data de Nascimento  
+    ID -> presente no link  
+    Apelido -> normalmente há, na pagina do jogador  
+    Nome,Sobrenome,Data de Nascimento -> Pagina do Jogador.  
+[ ] Notícia: Titulo, link(ID), data  
+    Titulo, Link, Data -> Lista de Notícias.  
+[ ] Jogador Mencionado: ID(jogador), ID(noticia)  
+[ ] Time: ID, Nome  
 [ ] Time Mencionado: ID time, ID noticia  
 
-Repensar:
-[ ] Campeonato: ID, nome
-[ ] Grupo de Campeonato: ID(Campeonato), link(id?)
-[ ] Times do Grupo de Campeonato: ID(campeonato), ID(time)
-[ ] Rodada: ID, ID(Campeonato)
-[ ] Jogos da Rodada: ID(Rodada),ID(Time1), ID(Time2), Placar(dois times), penalti?(foi pros penaltis), placar penalti? (quantos gols nos penaltis)
+Repensar:  
+[ ] Campeonato: ID, nome  
+[ ] Grupo de Campeonato: ID(Campeonato), link(id?)  
+[ ] Times do Grupo de Campeonato: ID(campeonato), ID(time)  
+[ ] Rodada: ID, ID(Campeonato)  
+[ ] Jogos da Rodada: ID(Rodada),ID(Time1), ID(Time2), Placar(dois times), penalti?(foi pros penaltis), placar penalti? (quantos gols nos penaltis)  
 
-[ ] 
