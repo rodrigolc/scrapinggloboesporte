@@ -10,10 +10,11 @@ import scrapy
 
 class Jogador(scrapy.Item):
     # define the fields for your item here like:
-    id = scrapy.Field()
+    url_suffix = scrapy.Field()
     apelido = scrapy.Field()
     nome = scrapy.Field()
+    sobrenome = scrapy.Field()
 
 class Time(scrapy.Item):
-    id = scrapy.Field()
+    url_suffix = scrapy.Field()
     nome = scrapy.Field()
