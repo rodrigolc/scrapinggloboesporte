@@ -8,8 +8,7 @@ cur = db.cursor()
 
 
 #criação de tabelas
-cur.execute('''create table Time (url text primary key, nome text)''')
+cur.execute('''create table Time (url_suffix text primary key, nome text)''')
 
 
-
-cur.commit()
+db.commit()
