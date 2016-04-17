@@ -9,12 +9,15 @@ import sqlite3
 import logging
 
 class GloboesportePipeline(object):
+
     def open_spider(self, spider):
         self.connection = sqlite3.connect('database/database.sqlite')
         self.cursor = self.connection.cursor()
+
     def close_spider(self, spider):
         self.connection.commit()
         self.connection.close()
+
     def process_item(self, item, spider):
         if isinstance(item,items.Time):
             self.cursor.execute('insert into Time(url_suffix,nome) values (?,?)',(item['url_suffix'],item['nome']))
